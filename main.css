@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+}
+
+.fon {
+    background-color: #ff00ff;
+    background-image: url(img/fon.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.fon:after {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(27, 27, 27, 0) 0%, rgba(1, 1, 1, 0.6) 37.03%, rgba(0, 0, 0, 0.6) 51.95%, rgba(0, 0, 0, 0.599091) 63.78%, rgba(27, 27, 27, 0) 98.75%);
+    z-index: 2;
+}
+
+.businessCard {
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.nameBlock {
+    text-align: center;
+}
+
+.nameBlock img {
+    width: 119px;
+    margin-top: 57px;
+}
+
+.nameBlock h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.6);
+}
+
+.buttons button {
+    width: 250px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.buttons h2 {
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.6);
+}
+
+.website {
+    border: 2px solid #C18B00;
+    filter: drop-shadow(0px 0px 10px #C18B00);
+}
+
+.website:hover {
+    background: #C18B00;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.website h2:before {
+    position: absolute;
+    content: url(img/html_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.instagram {
+    border: 2px solid #DD2A7B;
+    filter: drop-shadow(0px 0px 10px #F9A647);
+}
+
+.instagram:hover {
+    background: linear-gradient(79.78deg, #F58529 -7.25%, #FEDA77 18.04%, #DD2A7B 47.93%, #8134AF 74.94%, #515BD4 103.1%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.instagram h2:before {
+    position: absolute;
+    content: url(img/instagram_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.telegram {
+    border: 2px solid #0088CC;
+    filter: drop-shadow(0px 0px 10px #0088CC);
+}
+
+.telegram:hover {
+    background: #0088CC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.telegram h2:before {
+    position: absolute;
+    content: url(img/telegram_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.facebook {
+    border: 2px solid #1778F2;
+    filter: drop-shadow(0px 0px 10px #1778F2);
+}
+
+.facebook:hover {
+    background: #1778F2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.facebook h2:before {
+    position: absolute;
+    content: url(img/facebook_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.wechat {
+    border: 2px solid #5CC928;
+    filter: drop-shadow(0px 0px 10px #5CC928);
+}
+
+.wechat:hover {
+    background: #5CC928;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.wechat h2:before {
+    position: absolute;
+    content: url(img/wechat_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.snapchat {
+    border: 2px solid #FEFC00;
+    filter: drop-shadow(0px 0px 10px #FEFC00);
+}
+
+.snapchat:hover {
+    background: #FEFC00;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.snapchat h2:before {
+    position: absolute;
+    content: url(img/snapchat_1_white.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.behance {
+    border: 2px solid #0D1943;
+    filter: drop-shadow(0px 0px 10px #4D5E97);
+}
+
+.behance:hover {
+    background: #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.behance h2:before {
+    position: absolute;
+    content: url(img/behance-network_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
+
+.discord {
+    border: 2px solid #738ADB;
+    filter: drop-shadow(0px 0px 10px #738ADB);
+}
+
+.discord:hover {
+    background: #738ADB;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.discord h2:before {
+    position: absolute;
+    content: url(img/discord_1.svg);
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    margin-left: -54px;
+    margin-top: -4px;
+}
